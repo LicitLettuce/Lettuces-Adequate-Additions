@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "adequate_additions:rose_gold_nugget"
+    },
+    "X": {
+      "item": "minecraft:beetroot"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "adequate_additions:rose_gold_beetroot"
+  }
+}

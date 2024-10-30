@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "adequate_additions:rose_gold_nugget"
+    },
+    "0": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "X0 "
+  ],
+  "result": {
+    "count": 1,
+    "id": "adequate_additions:rose_powder"
+  }
+}
