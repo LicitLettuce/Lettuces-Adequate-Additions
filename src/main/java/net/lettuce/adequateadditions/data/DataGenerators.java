@@ -1,12 +1,10 @@
-package net.lettuce.adequateadditions.datagen;
+package net.lettuce.adequateadditions.data;
 
-import net.lettuce.adequateadditions.AdequateAdditions;
+import net.lettuce.adequateadditions.core.AdequateAdditions;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.storage.loot.parameters.LootContextParamSet;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -37,5 +35,7 @@ public class DataGenerators {
 
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput,existingFileHelper));
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput,existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new ModDatapackEntries(packOutput, lookupProvider));
     }
 }

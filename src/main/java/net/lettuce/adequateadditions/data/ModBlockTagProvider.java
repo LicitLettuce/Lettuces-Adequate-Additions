@@ -1,10 +1,12 @@
-package net.lettuce.adequateadditions.datagen;
+package net.lettuce.adequateadditions.data;
 
-import net.lettuce.adequateadditions.AdequateAdditions;
-import net.lettuce.adequateadditions.block.ModBlocks;
+import net.lettuce.adequateadditions.core.AdequateAdditions;
+import net.lettuce.adequateadditions.registry.ModBlocks;
+import net.lettuce.adequateadditions.registry.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -23,6 +25,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.ROSE_GOLD_BLOCK.get());
+
 
     }
 }

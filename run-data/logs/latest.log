@@ -1,27 +1,29 @@
-[29Oct2024 20:25:17.619] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\brayd\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, adequate_additions, --all, --output, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\generated\resources, --existing, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\main\resources]
-[29Oct2024 20:25:17.621] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
-[29Oct2024 20:25:17.622] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[29Oct2024 20:25:17.707] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[29Oct2024 20:25:17.781] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/brayd/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[29Oct2024 20:25:18.362] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[29Oct2024 20:25:18.882] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\brayd\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, adequate_additions, --all, --output, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\generated\resources, --existing, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\main\resources]
-[29Oct2024 20:25:22.308] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
-[29Oct2024 20:25:22.308] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
-[29Oct2024 20:25:22.322] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[29Oct2024 20:25:22.709] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [adequate_additions]
-[29Oct2024 20:25:22.756] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brayd/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[29Oct2024 20:25:22.757] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brayd/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[29Oct2024 20:25:22.857] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[29Oct2024 20:25:23.012] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 154 ms
-[29Oct2024 20:25:23.012] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[29Oct2024 20:25:23.040] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 28 ms
-[29Oct2024 20:25:23.041] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id adequate_additions
-[29Oct2024 20:25:23.050] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id adequate_additions finished after 9 ms
-[29Oct2024 20:25:23.050] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id adequate_additions
-[29Oct2024 20:25:23.051] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id adequate_additions finished after 0 ms
-[29Oct2024 20:25:23.051] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: adequate_additions
-[29Oct2024 20:25:23.054] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: adequate_additions finished after 3 ms
-[29Oct2024 20:25:23.054] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: adequate_additions
-[29Oct2024 20:25:23.120] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: adequate_additions finished after 65 ms
-[29Oct2024 20:25:23.120] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 263 ms
-[29Oct2024 20:25:23.123] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 25, old count: 25, new count: 26, removed stale: 0, written: 0
+[30Oct2024 00:12:51.342] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\brayd\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, adequate_additions, --all, --output, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\generated\resources, --existing, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\main\resources]
+[30Oct2024 00:12:51.345] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[30Oct2024 00:12:51.346] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[30Oct2024 00:12:51.423] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[30Oct2024 00:12:51.494] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/brayd/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[30Oct2024 00:12:52.090] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30Oct2024 00:12:52.556] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\brayd\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, adequate_additions, --all, --output, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\generated\resources, --existing, C:\Users\brayd\Desktop\MC Mod Development\Lettuce's Adequate Additions\ItelliJ Projects - Adequate Additions\AdequateAdditions1.21\src\main\resources]
+[30Oct2024 00:12:55.895] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[30Oct2024 00:12:55.895] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[30Oct2024 00:12:55.911] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[30Oct2024 00:12:56.296] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [adequate_additions]
+[30Oct2024 00:12:56.339] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brayd/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[30Oct2024 00:12:56.339] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/brayd/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[30Oct2024 00:12:56.434] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[30Oct2024 00:12:56.561] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 127 ms
+[30Oct2024 00:12:56.561] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[30Oct2024 00:12:56.585] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 23 ms
+[30Oct2024 00:12:56.585] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id adequate_additions
+[30Oct2024 00:12:56.600] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id adequate_additions finished after 14 ms
+[30Oct2024 00:12:56.600] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id adequate_additions
+[30Oct2024 00:12:56.601] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id adequate_additions finished after 1 ms
+[30Oct2024 00:12:56.601] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: adequate_additions
+[30Oct2024 00:12:56.638] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: adequate_additions finished after 36 ms
+[30Oct2024 00:12:56.638] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: adequate_additions
+[30Oct2024 00:12:56.716] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: adequate_additions finished after 78 ms
+[30Oct2024 00:12:56.716] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[30Oct2024 00:12:56.725] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 8 ms
+[30Oct2024 00:12:56.725] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 291 ms
+[30Oct2024 00:12:56.730] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 76, old count: 76, new count: 77, removed stale: 0, written: 0

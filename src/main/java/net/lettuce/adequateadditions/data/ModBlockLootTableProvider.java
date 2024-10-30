@@ -1,11 +1,9 @@
-package net.lettuce.adequateadditions.datagen;
+package net.lettuce.adequateadditions.data;
 
-import net.lettuce.adequateadditions.block.ModBlocks;
+import net.lettuce.adequateadditions.registry.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.RegistryObject;
 

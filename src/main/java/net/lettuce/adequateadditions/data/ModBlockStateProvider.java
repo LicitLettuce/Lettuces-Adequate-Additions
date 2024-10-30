@@ -1,7 +1,7 @@
-package net.lettuce.adequateadditions.datagen;
+package net.lettuce.adequateadditions.data;
 
-import net.lettuce.adequateadditions.AdequateAdditions;
-import net.lettuce.adequateadditions.block.ModBlocks;
+import net.lettuce.adequateadditions.core.AdequateAdditions;
+import net.lettuce.adequateadditions.registry.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;

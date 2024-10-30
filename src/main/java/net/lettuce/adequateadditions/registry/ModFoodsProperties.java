@@ -1,4 +1,4 @@
-package net.lettuce.adequateadditions.item;
+package net.lettuce.adequateadditions.registry;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

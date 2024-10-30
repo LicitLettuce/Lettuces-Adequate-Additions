@@ -1,8 +1,8 @@
-package net.lettuce.adequateadditions.datagen;
+package net.lettuce.adequateadditions.data;
 
-import net.lettuce.adequateadditions.AdequateAdditions;
-import net.lettuce.adequateadditions.block.ModBlocks;
-import net.lettuce.adequateadditions.item.ModItems;
+import net.lettuce.adequateadditions.core.AdequateAdditions;
+import net.lettuce.adequateadditions.registry.ModBlocks;
+import net.lettuce.adequateadditions.registry.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;

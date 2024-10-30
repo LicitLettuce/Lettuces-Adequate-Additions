@@ -1,12 +1,11 @@
-package net.lettuce.adequateadditions;
+package net.lettuce.adequateadditions.core;
 
 import com.mojang.logging.LogUtils;
-import net.lettuce.adequateadditions.block.ModBlocks;
-import net.lettuce.adequateadditions.item.ModItems;
+import net.lettuce.adequateadditions.registry.ModBlocks;
+import net.lettuce.adequateadditions.registry.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -15,7 +14,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -38,7 +36,7 @@ public class AdequateAdditions {
 
         modEventBus.addListener(this::addCreative);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        ModLoadingContext.get().registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -57,7 +55,41 @@ public class AdequateAdditions {
             event.getEntries().putAfter(Items.BEETROOT.getDefaultInstance(), ModItems.ROSE_GOLD_BEETROOT.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
         }
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.ROSE_GOLD_SHOVEl);
+            event.accept(ModItems.ROSE_GOLD_PICKAXE);
+            event.accept(ModItems.ROSE_GOLD_AXE);
+            event.accept(ModItems.ROSE_GOLD_HOE);
+            event.getEntries().putAfter(Items.GOLDEN_HOE.getDefaultInstance(), ModItems.ROSE_GOLD_SHOVEl.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(ModItems.ROSE_GOLD_SHOVEl.get().getDefaultInstance(), ModItems.ROSE_GOLD_PICKAXE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(ModItems.ROSE_GOLD_PICKAXE.get().getDefaultInstance(), ModItems.ROSE_GOLD_AXE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(ModItems.ROSE_GOLD_AXE.get().getDefaultInstance(), ModItems.ROSE_GOLD_HOE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+
+            event.accept(ModItems.ROSE_GOLD_SWORD);
+            event.accept(ModItems.ROSE_GOLD_AXE);
+            event.accept(ModItems.ROSE_GOLD_HELMET);
+            event.accept(ModItems.ROSE_GOLD_CHESTPLATE);
+            event.accept(ModItems.ROSE_GOLD_LEGGINGS);
+            event.accept(ModItems.ROSE_GOLD_BOOTS);
+
+
+            event.getEntries().putAfter(Items.GOLDEN_SWORD.getDefaultInstance(), ModItems.ROSE_GOLD_SWORD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.GOLDEN_AXE.getDefaultInstance(), ModItems.ROSE_GOLD_AXE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            event.getEntries().putAfter(Items.GOLDEN_BOOTS.getDefaultInstance(), ModItems.ROSE_GOLD_HELMET.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(ModItems.ROSE_GOLD_HELMET.get().getDefaultInstance(), ModItems.ROSE_GOLD_CHESTPLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(ModItems.ROSE_GOLD_CHESTPLATE.get().getDefaultInstance(), ModItems.ROSE_GOLD_LEGGINGS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(ModItems.ROSE_GOLD_LEGGINGS.get().getDefaultInstance(), ModItems.ROSE_GOLD_BOOTS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+        }
+
+            if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ROSE_GOLD_INGOT);
             event.accept(ModItems.ROSE_GOLD_NUGGET);
             event.accept(ModItems.ROSE_POWDER);

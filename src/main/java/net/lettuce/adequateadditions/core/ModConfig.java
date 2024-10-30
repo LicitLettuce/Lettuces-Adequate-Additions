@@ -1,4 +1,4 @@
-package net.lettuce.adequateadditions;
+package net.lettuce.adequateadditions.core;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
 // Demonstrates how to use Forge's config APIs
 @Mod.EventBusSubscriber(modid = AdequateAdditions.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class Config
+public class ModConfig
 {
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
 
@@ -34,7 +34,7 @@ public class Config
     // a list of strings that are treated as resource locations for items
     private static final ForgeConfigSpec.ConfigValue<List<? extends String>> ITEM_STRINGS = BUILDER
             .comment("A list of items to log on common setup.")
-            .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), Config::validateItemName);
+            .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), ModConfig::validateItemName);
 
     static final ForgeConfigSpec SPEC = BUILDER.build();
 

@@ -3,5 +3,20 @@
   "item.adequate_additions.rose_gold_nugget": "Rose Gold Nugget",
   "item.adequate_additions.rose_powder": "Rose Powder",
   "item.adequate_additions.rose_gold_beetroot": "Rose Gold Beetroot",
-  "block.adequate_additions.rose_gold_block": "Block of Rose Gold"
+
+  "item.adequate_additions.rose_gold_sword": "Rose Gold Sword",
+  "item.adequate_additions.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.adequate_additions.rose_gold_axe": "Rose Gold Axe",
+  "item.adequate_additions.rose_gold_shovel": "Rose Gold Shovel",
+  "item.adequate_additions.rose_gold_hoe": "Rose Gold Hoe",
+
+  "item.adequate_additions.rose_gold_helmet": "Rose Gold Helmet",
+  "item.adequate_additions.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.adequate_additions.rose_gold_leggings": "Rose Gold Leggings",
+  "item.adequate_additions.rose_gold_boots": "Rose Gold Boots",
+
+
+  "block.adequate_additions.rose_gold_block": "Block of Rose Gold",
+
+  "trim_material.adequate_additions.rose_gold": "Rose Gold Material"
 }

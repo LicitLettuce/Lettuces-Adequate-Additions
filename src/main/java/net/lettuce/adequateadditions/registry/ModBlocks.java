@@ -1,9 +1,6 @@
-package net.lettuce.adequateadditions.block;
+package net.lettuce.adequateadditions.registry;
 
-import net.lettuce.adequateadditions.AdequateAdditions;
-import net.lettuce.adequateadditions.item.ModItems;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
+import net.lettuce.adequateadditions.core.AdequateAdditions;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -13,8 +10,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AdequateAdditions.MOD_ID);
